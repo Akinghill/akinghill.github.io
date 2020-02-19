@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
 }
+
 body {
   font-family: monospace;
   background-color: #222;
@@ -27,4 +28,22 @@ body {
 .nav-link {
   margin: 0;
   padding: 1rem 2rem;
+  position: relative;
+}
+
+.nav-link::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 0px;
+  width: 33vw;
+  z-index: -1;
+}
+
+.nav-link:hover::before {
+  background: red;
+  height: 100%;
+  width: 33vw;
+  transition: all, linear, 1s;
 }
