@@ -9,3 +9,7 @@
 .site-link:hover, .site-link:focus, .code-link:hover, .code-link:focus {
   color:#f6f6f6;
 }
+
+.portfolio-item{
+  height: 133px;
+}
