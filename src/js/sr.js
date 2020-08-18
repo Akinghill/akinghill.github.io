@@ -18,13 +18,13 @@ export default function() {
   );
 
   /* Hero Section */
-  ScrollReveal().reveal('.hero-title', 
-    assignProps(
-      { 
-        delay: 500, 
-        origin: window.innerWidth > 768 ? 'left' : 'bottom'
-      }, defaultProps)
-  );
+  // ScrollReveal().reveal('.hero-title', 
+  //   assignProps(
+  //     { 
+  //       delay: 0, 
+  //       origin: window.innerWidth > 768 ? 'left' : 'bottom'
+  //     }, defaultProps)
+  // );
   
   ScrollReveal().reveal('.hero-cta', 
     assignProps(

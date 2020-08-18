@@ -7,6 +7,10 @@
     border: 0px;
   }
 
+  & p {
+    color: #08e1c2
+  }
+  
   &__text {
     color: darken(white, 50%);
     font-size: 1.3rem;
