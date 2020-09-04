@@ -7,10 +7,6 @@
     border: 0px;
   }
 
-  & p {
-    color: #08e1c2
-  }
-  
   &__text {
     color: darken(white, 50%);
     font-size: 1.3rem;
@@ -66,6 +62,7 @@
   color: $white-color;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
+  cursor: pointer;
 
   &:hover {
     transform: translateY(-2px);
