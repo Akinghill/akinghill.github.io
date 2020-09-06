@@ -29,6 +29,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'js-projects.png',
+    title: 'JavaScript Projects',
+    info:
+      "A collection of simple JavaScript projects. Check them out!",
+    info2: '',
+    url: 'https://akinghill.github.io/JavaScript-Projects/',
+    repo: 'https://github.com/Akinghill/JavaScript-Projects', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'mardown-preview-app.jpg',
     title: 'Markdown Previewer',
     info:
