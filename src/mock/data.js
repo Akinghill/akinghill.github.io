@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'js-projects.png',
+    img: 'js-projects.jpg',
     title: 'JavaScript Projects',
     info:
       "A collection of simple JavaScript projects. Check them out!",
