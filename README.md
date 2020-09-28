@@ -1,4 +1,3 @@
-## Created using the template below 
+## Austin Hill - Portfolio
 
-## Author
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+Website bootstrapped using [this](https://www.gatsbyjs.com/starters/cobidev/gatsby-simplefolio/) Gatsby template.
