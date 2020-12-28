@@ -29,13 +29,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'js-projects.jpg',
-    title: 'JavaScript Projects',
+    img: 'royal-sky.png',
+    title: 'Royal Sky Shopping',
     info:
-      "A collection of simple JavaScript projects. Check them out!",
+      "A high class and high fashion shopping experience",
     info2: '',
-    url: 'https://akinghill.github.io/JavaScript-Projects/',
-    repo: 'https://github.com/Akinghill/JavaScript-Projects', // if no repo, the button will not show up
+    url: 'https://akinghill.github.io/royal-sky/',
+    repo: 'https://github.com/Akinghill/royal-sky', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
