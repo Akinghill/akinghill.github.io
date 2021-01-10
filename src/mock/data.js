@@ -39,16 +39,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'mardown-preview-app.jpg',
-    title: 'Markdown Previewer',
-    info:
-      'A minimalist Markdown previewer with a light and dark mode option. Great for quickly seeing how your markdown files will display on a site like Github.',
-    info2: '',
-    url: 'https://akinghill.github.io/markdown-previewer-LD/',
-    repo: 'https://github.com/Akinghill/markdown-previewer-LD', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'facial-recognition-app.png',
     title: 'Facail Recognition App',
     info:
