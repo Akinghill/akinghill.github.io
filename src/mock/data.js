@@ -29,6 +29,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'tyf-thumbnail.jpg',
+    title: 'Teach You Freedon',
+    info:
+      "A simple landing page made for Teach You Freedom. This start-up's vision is to create a place for individuals to track and enhance their personal development and self actualization journeys",
+    info2: '',
+    url: 'https://akinghill.github.io/tyf/',
+    repo: 'https://github.com/Akinghill/tyf', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'royal-sky.png',
     title: 'Royal Sky Shopping',
     info:
